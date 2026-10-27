@@ -1,67 +1,31 @@
-Hệ thống quản lý nhân sự
+## Liên kết nộp bài
 
-Thông tin sinh viên
+1. **GitHub Repository:** https://github.com/thinhquy019-arch/237104_ThaiVanQui
+2. **Docker Hub Backend:** https://hub.docker.com/r/qui237104/employee-backend
+3. **Docker Hub Frontend:** https://hub.docker.com/r/qui237104/employee-frontend
+4. **Render Frontend:** https://web-237104.onrender.com
+5. **Render Backend API:** https://api-237104.onrender.com/api/employees
+6. **MongoDB Atlas:** https://cloud.mongodb.com/
 
-Họ và tên: Thái Văn Qui
+## Thông tin cơ sở dữ liệu
 
-MSSV: 237104
+- Database: `237104_ThaiVanQui`
+- Collection: `employees`
+- Hệ quản trị: MongoDB Atlas
 
-Lớp: DH23TIN09
+## Chức năng hệ thống
 
-Học phần: Điện toán đám mây
+- Hiển thị danh sách nhân viên
+- Thêm nhân viên
+- Tìm kiếm nhân viên
+- Cập nhật thông tin nhân viên
+- Xóa nhân viên
 
-Giới thiệu
+## Công nghệ triển khai
 
-Đây là dự án xây dựng hệ thống quản lý nhân sự trong học phần Điện toán đám mây. Ứng dụng giúp quản lý thông tin nhân viên, bao gồm xem danh sách, thêm mới, tìm kiếm, chỉnh sửa và xóa thông tin nhân viên.
-
-Dữ liệu được lưu trữ trên MongoDB Atlas. Hệ thống sử dụng React để xây dựng giao diện, Node.js và Express để xử lý các yêu cầu từ người dùng.
-
-Công nghệ sử dụng
-
-Frontend: React, Vite
-
-Backend: Node.js, Express
-
-Cơ sở dữ liệu: MongoDB Atlas
-
-Quản lý mã nguồn: Git, GitHub
-
-Đóng gói ứng dụng: Docker
-
-Lưu trữ Image: Docker Hub
-
-Triển khai ứng dụng: Render
-
-Hướng dẫn chạy ứng dụng
-
-Backend
-
-bash
-cd backend
-npm install
-npm start
-
-
-Trước khi chạy cần tạo file `.env` từ `.env.example` và cấu hình kết nối MongoDB Atlas.
-
-Frontend
-
-cd frontend
-npm install
-npm run dev
-
-Sau khi chạy, truy cập địa chỉ được Vite hiển thị trên Terminal.
-
-Liên kết dự án
-
-GitHub: https://github.com/thinhquy019-arch/237104_ThaiVanQui
-
-Docker Hub Backend: Chưa cập nhật
-
-Docker Hub Frontend: Chưa cập nhật
-
-Render App: Chưa cập nhật
-
-Render API: Chưa cập nhật
-
-MongoDB Atlas: Chưa cập nhật
+- Frontend: React, Vite, Nginx
+- Backend: Node.js, Express, Mongoose
+- Database: MongoDB Atlas
+- Container: Docker
+- Image Registry: Docker Hub
+- Cloud Hosting: Render
