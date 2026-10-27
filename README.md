@@ -2,9 +2,9 @@
 
 ## 1. Thông tin sinh viên
 
-- **Họ và tên:** Thái Văn Quí
+- **Họ và tên:** Thái Văn Qui
 - **Mã số sinh viên:** 237104
-- **Lớp:** [Điền lớp học chính xác]
+- **Lớp:** DH23TIN09
 - **Tên đề tài:** Xây dựng hệ thống quản lý nhân sự sử dụng React, Node.js và MongoDB
 
 ## 2. Giới thiệu dự án
