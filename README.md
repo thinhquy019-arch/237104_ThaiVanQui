@@ -2,8 +2,7 @@
 
 **Sinh viên:** Thái Văn Quí  
 **MSSV:** 237104  
-**Lớp:** [Điền lớp học chính xác]
-
+**Lớp:** DH23TIN09
 ## 1. Giới thiệu
 
 Ứng dụng web quản lý nhân sự cho phép xem danh sách, thêm mới, tìm kiếm, cập nhật và xóa thông tin nhân viên. Frontend React giao tiếp với Backend REST API, dữ liệu được lưu trữ trên MongoDB Atlas. Ứng dụng được đóng gói bằng Docker và triển khai trên Render.
@@ -22,10 +21,10 @@
 
 ```text
 237104_ThaiVanQui/
-├── backend/               # REST API Express và kết nối MongoDB
-│   ├── .env.example       # Mẫu biến môi trường, không chứa mật khẩu
+├── backend/               
+│   ├── .env.example      
 │   └── Dockerfile
-├── frontend/              # Ứng dụng React/Vite
+├── frontend/             
 │   ├── src/
 │   ├── nginx.conf
 │   └── Dockerfile
